@@ -1,5 +1,6 @@
 body {
-    background-color: rgba(255,192,203 0.3);
+    background-color: pink;
+
 }
 h1 {
     color: brown;
@@ -7,7 +8,9 @@ h1 {
 h2 {
     color: blue;
 }
-
+h3 {
+    color: blue;
+}
 }
 p {
     color: blue;
