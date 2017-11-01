@@ -1,14 +1,14 @@
 body {
-    background-color: Pink;
+    background-color: rgba(255,192,203 0.5);
 }
 h1 {
-    color: blue;
+    color: brown;
 }
 h2 {
-    color: red;
+    color: blue;
 }
 
 }
 p {
-    color: red;
+    color: blue;
 }
