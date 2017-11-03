@@ -1,6 +1,6 @@
 body {
     background-color: pink;
-    padding-bottom: 50px;
+    padding-bottom: 350px;
 }
 * The side navigation menu */
 .Navbar {
@@ -72,6 +72,9 @@ h1 {
 
 #Roles {color: blue;text-align:center;}
 
+section {
+    padding-bottom: 80px;
+}
 .sectionName{
  
     color: red;
