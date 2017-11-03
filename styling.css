@@ -3,7 +3,7 @@ body {
 }
 * The side navigation menu */
 .Navbar {
-    height: 70px;
+   height: 70px;
    line-height: 70px;
    border: 1px  solid green;
  }
@@ -18,7 +18,8 @@ body {
   display: inline-block;
   font-size: 60%;
   margin-right: 0;
-  border : 1px solid yellow;
+  border : 3 px solid yellow;
+  background: blue
  } 
 
 /* The navigation menu links */
@@ -26,7 +27,7 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #yellow;
     display: block;
     transition: 0.3s
 }
