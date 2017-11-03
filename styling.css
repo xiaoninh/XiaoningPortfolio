@@ -6,12 +6,12 @@ body {
    height: 70px;
    line-height: 70px;
    border: 1px  solid green;
-
+text-align:center;
  }
    
 .Navbar ul {
     list-style: none;
-    width: 60%;
+    width: 80%;
     border: 3 px solid TOMATO;
       text-align:center;
     
@@ -19,10 +19,10 @@ body {
 
 .Navbar ul li {
   display: inline-block;
-  font-size: 80%;
+  font-size: 60%;
   margin-right: 0;
   border : 5 px solid brown;
-  background: gray
+  background: gray;
       text-align:center;
  } 
 
