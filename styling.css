@@ -11,8 +11,7 @@ text-align:center;
    
 .Navbar ul {
     list-style: none;
-    width: 80%;
-    border: 3 px solid TOMATO;
+    width: 100%;
       text-align:center;
     
  }
@@ -20,7 +19,7 @@ text-align:center;
 .Navbar ul li {
   display: inline-block;
   font-size: 60%;
-  margin-right: 0;
+  margin-right: 5;
   border : 5 px solid brown;
   background: gray;
       text-align:center;
@@ -31,14 +30,14 @@ text-align:center;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: pink;
+    color: LightCoral;
     display: block;
     transition: 0.3s
 }
 
 /* When you mouse over the navigation links, change their color */
 .Navbar a:hover, .offcanvas a:focus{
-    color: LightCoral;
+    color: pink;
 }
 
 /* Position and style the close button (top right corner) */
