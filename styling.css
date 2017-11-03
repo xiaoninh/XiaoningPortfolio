@@ -2,20 +2,25 @@ body {
     background-color: pink;
 }
 h1 {
-    color: brown;
-    text-align:center
+    text-align:center;
 }
-h2 {
-    color: blue;
-    text-align:center
+#firstName {color: brown;}
+#lastName {color: blue;}
+#nickName {color: brown;}
+#Roles {color: blue;}
+
+.sectionName{
+    text-indent: 50px;
+    color: red;
 }
-h3 {
-    color: blue;
+
+ul.bioSection {
+    text-indent: 150px;
+    list-style-type: circle;
 }
+
+ul.bioSubSection {
+    text-indent: 250px;
+    list-style-type: square;
 }
-p {
-    color: blue;
-}
-p1 {
-    color: blue;
-}
+
