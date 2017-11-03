@@ -13,6 +13,7 @@ body {
     list-style: none;
     width: 100%;
     border: 1px solid red;
+    text-align:center;
  }
 
 .Navbar ul li {
@@ -28,14 +29,14 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: tomato;
+    color: pink;
     display: block;
     transition: 0.3s
 }
 
 /* When you mouse over the navigation links, change their color */
 .Navbar a:hover, .offcanvas a:focus{
-    color: pink;
+    color: tomato;
 }
 
 /* Position and style the close button (top right corner) */
