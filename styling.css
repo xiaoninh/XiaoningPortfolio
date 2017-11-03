@@ -5,7 +5,7 @@ h1 {
     text-align:center;
 }
 #Name {color: brown;}
-#profilepic{
+img{
         width="160" height="230";
         display: inline;}
 #Roles {color: blue;text-align:center;}
