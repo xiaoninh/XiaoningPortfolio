@@ -3,11 +3,7 @@ body {
     padding-bottom: 250px;
 }
 * The side navigation menu */
-.Navbar {
-   height: 70px;
-   line-height: 70px;
 
- }
    
 .Navbar ul {
     list-style: none;
