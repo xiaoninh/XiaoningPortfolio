@@ -18,10 +18,11 @@ body {
 
 .Navbar ul li {
   display: inline-block;
-  font-size: 60%;
+  font-size: 80%;
   margin-right: 0;
   border : 5 px solid brown;
   background: grey
+      text-align:center;
  } 
 
 /* The navigation menu links */
