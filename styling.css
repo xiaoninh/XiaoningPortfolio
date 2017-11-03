@@ -7,20 +7,20 @@ h1 {
 #firstName {color: brown;}
 #lastName {color: blue;}
 #nickName {color: brown;}
-#Roles {color: blue;}
+#Roles {color: blue;text-align:center;}
 
 .sectionName{
-    text-indent: 50px;
+ 
     color: red;
 }
 
 ul.bioSection {
-    text-indent: 150px;
+    
     list-style-type: circle;
 }
 
 ul.bioSubSection {
-    text-indent: 250px;
+ 
     list-style-type: square;
 }
 
