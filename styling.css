@@ -13,7 +13,7 @@ body {
     list-style: none;
     width: 60%;
     border: 3 px solid TOMATO;
-    text-align:center;
+    
  }
 
 .Navbar ul li {
@@ -21,7 +21,7 @@ body {
   font-size: 60%;
   margin-right: 0;
   border : 5 px solid brown;
-  background: lightgrey
+  background: grey
  } 
 
 /* The navigation menu links */
