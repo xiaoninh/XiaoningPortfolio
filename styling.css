@@ -19,8 +19,8 @@ text-align:center;
 .Navbar ul li {
   display: inline-block;
   font-size: 60%;
-  margin-right: 5;
-  margin-left: 5;
+  margin: 30;
+
   border-radius: 5px;
   border:4px solid brown;
   border-style: outset;
@@ -30,13 +30,12 @@ text-align:center;
 
 /* The navigation menu links */
 .Navbar a {
-    padding: 10px 20px 30px 40px;
+    padding: 40px 10px 10px 40px;
     text-decoration: none;
     font-size: 25px;
     color: LightCoral;
     display: block;
     transition: 0.3s
-    margin: 5;
 }
 
 /* When you mouse over the navigation links, change their color */
