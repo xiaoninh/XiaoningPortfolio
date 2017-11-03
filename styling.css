@@ -4,9 +4,10 @@ body {
 h1 {
     text-align:center;
 }
-#firstName {color: brown;}
-#lastName {color: blue;}
-#nickName {color: brown;}
+#Name {color: brown;}
+#profilepic{
+        width="160" height="230";
+        display: inline;}
 #Roles {color: blue;text-align:center;}
 
 .sectionName{
