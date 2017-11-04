@@ -6,25 +6,28 @@ body {
 
 .Navbar {
    height: 70px;
-   line-height: 50px;
+   line-height: 40px;
 
  }
 .Navbar ul {
     list-style: none;
-    width: 100%;
-     text-align:center;
+	text-align:center;
+    border-top:2px dotted brown;
+   border-bottom:2px dotted brown;
+	margin-left: 150px;
+	margin-right: 150px;
+
     
  }
 
 .Navbar ul li {
   display: inline-block;
-  font-size: 60%;
+  font-size: 100%;
   border-radius: 5px;
   border:2px solid brown;
   border-style: outset;
   background: gray;
-  text-align:center;
-   margin: 300;
+   margin-right: 50px;
  } 
 
 /* The navigation menu links */
@@ -37,24 +40,14 @@ body {
     transition: 0.3s
 }
 
-/* When you mouse over the navigation links, change their color */
 .Navbar a:hover, .offcanvas a:focus{
     color: pink;
 }
 
-/* Position and style the close button (top right corner) */
-.Navbar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+side navigation */
 #main {
-    transition: margin-left .5s;
-    padding: 20px;
+    transition: margin-left .9s;
+    padding: 30px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -65,21 +58,48 @@ body {
 
 div.static {
     position: static;
-    border: 3px dotted solid LightCoral;
+  
 }
+div.Bio {
+    position: static;}
+
+div.project {
+    position: static;
+    border: 5px dotted LightCoral;
+ 	margin-left:-50px;
+margin-right:-50px;
+	padding-bottom:30px;
+
+}
+
+div.contact {
+    position: static;
+    border: 5px double brown;
+   margin-left: -10px;
+	padding-bottom:30px;}
+
+
 
 h1 {
     text-align:center;
 }
 #Name {color: brown;}
 
-#Roles {color: blue;text-align:center;}
+#Roles {color: darkblue; text-align:center;}
+
+
 
 section {
-    padding-bottom: 80px;
+    padding-bottom: 50px;
+	padding-up:10px;
+	padding-left:10px;
+	padding-right:20px;
+	margin-left: 120px;
+	margin-right: 120px;
+
 }
 .sectionName{
- 
+   padding: 20px;
     color: red;
 }
 
@@ -89,7 +109,7 @@ ul.bioSection {
 }
 
 ul.bioSubSection {
- 
+
     list-style-type: square;
 }
 
