@@ -16,18 +16,18 @@ body {
    border-bottom:2px dotted brown;
 	margin-left: 150px;
 	margin-right: 150px;
-
-    
+      border-radius: 8px;
  }
 
 .Navbar ul li {
   display: inline-block;
   font-size: 100%;
-  border-radius: 5px;
+  border-radius: 15px;
   border:2px solid brown;
   border-style: outset;
   background: gray;
    margin-right: 50px;
+
  } 
 
 /* The navigation menu links */
@@ -66,9 +66,13 @@ div.Bio {
 div.project {
     position: static;
     border: 5px dotted LightCoral;
- 	margin-left:-50px;
-margin-right:-50px;
+ 	margin-left:-80px;
+	margin-right:-70px;
+	margin-bottom:60px;
 	padding-bottom:30px;
+	padding-left:30px;
+	padding-right:30px; 
+	border-radius: 20px;
 
 }
 
@@ -76,7 +80,9 @@ div.contact {
     position: static;
     border: 5px double brown;
    margin-left: -10px;
-	padding-bottom:30px;}
+	padding-bottom:30px;
+	padding-left:70px;
+  border-radius: 100px;}
 
 
 
