@@ -5,6 +5,7 @@ body {
 
 
 .Navbar {
+position: relative;
    height: 70px;
    line-height: 40px;
 
@@ -48,6 +49,7 @@ side navigation */
 #main {
     transition: margin-left .9s;
     padding: 30px;
+	 position: static;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -61,10 +63,10 @@ div.static {
   
 }
 div.Bio {
-    position: static;}
+    }
 
 div.project {
-    position: static;
+
     border: 5px dotted LightCoral;
  	margin-left:-80px;
 	margin-right:-70px;
@@ -77,7 +79,7 @@ div.project {
 }
 
 div.contact {
-    position: static;
+
     border: 5px double brown;
    margin-left: -10px;
 	padding-bottom:30px;
