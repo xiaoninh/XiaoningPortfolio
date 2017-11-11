@@ -140,10 +140,10 @@ ul.bioSubSection {
     .Navbar ul {padding: 0px 12px 0px 12px; margin-left: 2px; margin-right: 2px;}
     .Navbar ul li {font-size: 110%; margin-right: 10px;} 
     img {width:260px; height:370px;}
-    #main {padding: 0px ;margin-left: -20px;}
+    #main {padding: 0px ;margin-left: -10px;}
     section {padding-bottom: 30px;padding-up:10px;padding-left:0px;padding-right:5px;
 margin-left: 50px;margin-right: 50px;font-size: 110%;}
-	div.project {margin-left:-7px;margin-right:-5px;} 	
+	div.project {margin-left:15px; margin-right:-5px;} 	
 	h1{font-size: 160%;} 
 	h2{font-size: 130%;} 
 	h3{font-size: 120%;} 
