@@ -133,7 +133,7 @@ ul.bioSubSection {
 }
 
 #backBtn{
-  display:none;
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 32px;
@@ -145,6 +145,8 @@ ul.bioSubSection {
   border-radius: 10px;
 
 }
+#backBtn:hover {
+    background-color: #Brown;}
 
 @media screen and (max-width: 1200px) {
    
