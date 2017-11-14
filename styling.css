@@ -132,7 +132,19 @@ ul.bioSubSection {
     list-style-type: square;
 }
 
+#backBtn{
 
+  position: fixed;
+  bottom: 20px;
+  right: 32px;
+  z-index: 98;
+  background-color: red;
+  color: yellow;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+
+}
 
 @media screen and (max-width: 1200px) {
    

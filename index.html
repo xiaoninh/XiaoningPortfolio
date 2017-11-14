@@ -79,18 +79,12 @@
     
 
 <details>
-  <summary>Summary</summary>
+  <summary>Details</summary>
   <p>
-NeoGeonomics is a cancer diagnostics company in Orange Counrty. </br>
-Doctors at NeoGenomics need to schedule their availability for certain testing modalities throughout the week, currently this is managed manually with a crude spreadsheet and a legend. </br>
-Our team is being brought onto NeoGenomics to implement an electronic framework to easily sort, reschedule, and visualize the available doctors for the week - as well as what types of work they will be performing during that week. The system will be intuitive and designed with the most aesthetic UI as possible while staying as close to the current convention. 
+Neogenomics is a cancer diagnostic and pharma services company that employs many doctors across several campuses across the U.S. The schedulers, are responsible for managing these schedules which they do in Microsoft Excel within spreadsheets. Because of the volatile nature of this job, Excel is poorly equipped to handle the current demands from Doctors and Schedulers. Our team is collaborating with Neogenomics to move the current workflow onto a web-based framework which will help automate specific tasks and organize information on a fluid UI.
+
 </p>
 </details>
-
-
-
-
-
 
 
 
@@ -147,14 +141,22 @@ Our team is being brought onto NeoGenomics to implement an electronic framework 
 </div> 
 </body>
 
+<button onclick="topFunction()" id="backBtn" title=“Back to top">Back to the Top</button>
 <script>
-function myFunction() {
-    var x = document.getElementById(“Neo”);
-    if (x.style.display === "none") {
-        x.style.display = "block";
+
+window.onscroll = function() {backToTopFunction()};
+
+function backToTopFunction() {
+    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+        document.getElementById("backBtn").style.display = "block";
     } else {
-        x.style.display = "none";
+        document.getElementById("backBtn").style.display = "none";
     }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
 </script>
 </html>
