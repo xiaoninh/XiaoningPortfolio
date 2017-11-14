@@ -133,7 +133,7 @@ ul.bioSubSection {
 }
 
 #backBtn{
-
+  display:none;
   position: fixed;
   bottom: 20px;
   right: 32px;
